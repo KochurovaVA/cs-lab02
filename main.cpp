@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-int a, b;
+double a, b;
 cin >> a >> b;
 cout << "A + B = " << a + b << '\n'
      << "A - B = " << a - b << '\n'
      << "A * B = " << a * b << '\n'
      << "A / B = " << a / b << '\n'
-vector <int> poisk(4);
+vector <double> poisk(4);
 poisk[0]=a+b;
 poisk[1]=a-b;
 poisk[2]=a*b;
